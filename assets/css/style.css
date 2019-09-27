@@ -64,6 +64,7 @@ header .logo .logo_text {
     height: 49px;
     top: 63px;
     margin-right: 3px;
+    z-index: 10;
 }
 
 .header_nav .nav_background_1 {
@@ -171,6 +172,7 @@ header .logo .logo_text {
 
 .banner_wrapper {
     position: relative;
+    padding-top: 120px;
 }
 
 .banner_arrow_left, .banner_arrow_right {
@@ -179,6 +181,11 @@ header .logo .logo_text {
     position: absolute;
     top: 300px;
     background: #f5c506;
+    cursor: pointer;
+}
+
+.banner_arrow_left:hover, .banner_arrow_right:hover {
+    background-color: #b99403;
 }
 
 .banner_wrapper .banner_arrow_left {
@@ -205,7 +212,6 @@ header .logo .logo_text {
     width: 1024px;
     height: 416px;
     margin: 0 auto;
-    padding-top: 120px;
 }
 
 .banner .banner_content video {
