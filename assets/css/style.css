@@ -4,6 +4,12 @@
     src: url("../fonts/OpenSans-Italic.ttf") format("truetype");
 } */
 
+@font-face {
+    font-family: "Segoe Pro";
+    font-weight: 300;
+    src: url("../fonts/SegoePro-Light.ttf") format("truetype");
+}
+
 body {
     background-color: gray;
 }
@@ -13,6 +19,7 @@ body {
     background-color: white;
     margin: 0 auto;
 }
+
 
 /* Header */
 
@@ -102,6 +109,7 @@ header .logo .logo_text {
     height: 41px;
     width: 1px;
     border-left: 1px solid #dcb105;
+    opacity: 0.3;
 }
 
 .header_nav ul li a {
@@ -160,6 +168,7 @@ header .logo .logo_text {
     margin: 0 7px 0 -2px;
 }
 
+
 /* Banner */
 
 .banner {
@@ -181,11 +190,12 @@ header .logo .logo_text {
     position: absolute;
     top: 300px;
     background: #f5c506;
+    opacity: 0.7;
     cursor: pointer;
 }
 
 .banner_arrow_left:hover, .banner_arrow_right:hover {
-    background-color: #b99403;
+    opacity: 1;
 }
 
 .banner_wrapper .banner_arrow_left {
@@ -239,19 +249,98 @@ header .logo .logo_text {
     color: #fff;
 }
 
+
 /* Icon Area */
+
 .icon_area {
     height: 212px;
     background-image: url("../images/layer_7.png");
     background-repeat: no-repeat;
     background-position: top center;
+    box-shadow: -0.1px -1px 5px rgba(0,0,0,0.75);
 }
+
+.icon_area_wrapper {
+    width: 1024px;
+    height: 212px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.icon_area_divider {
+    height: 212px;
+    width: 1px;
+    border-left: 1px solid #d1d1d1;
+    opacity: 0.3;
+}
+
+.icon_area_wrapper figure {
+    position: relative;
+    width: 200px;
+}
+
+.better_design svg {
+    position: absolute;
+    top: 60px;
+    left: 22px;
+}
+
+.better_design figcaption {
+    position: absolute;
+    top: 149px;
+    left: -2px;
+}
+
+.customise svg {
+    position: absolute;
+    top: 36px;
+    left: 65px;
+}
+
+.customise figcaption {
+    position: absolute;
+    top: 149px;
+    left: 40px;
+}
+
+.its_free svg {
+    position: absolute;
+    top: 53px;
+    left: 66px;
+}
+
+.its_free figcaption {
+    position: absolute;
+    top: 150px;
+    left: 61px;
+}
+
+.icon_area_wrapper figure figcaption {
+    font-size: 27px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "Segoe Pro";
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.icon_area_wrapper figure svg {
+    display: block;
+    fill: #f5c506;
+}
+
+
+/* Content One */
 
 .content_1 {
     height: 509px;
     background-image: url("../images/layer_10_3.png");
     background-repeat: no-repeat;
     background-position: top center;
+    box-shadow: inset -0.1px 1px 5px rgba(0,0,0,0.75);
 }
 
 .content_2 {
