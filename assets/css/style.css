@@ -10,6 +10,18 @@
     src: url("../fonts/SegoePro-Light.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Segoe Pro";
+    font-weight: normal;
+    src: url("../fonts/SegoePro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Segoe Pro";
+    font-weight: bold;
+    src: url("../fonts/SegoePro-Bold.ttf") format("truetype");
+}
+
 body {
     background-color: gray;
 }
@@ -342,6 +354,172 @@ header .logo .logo_text {
     background-position: top center;
     box-shadow: inset -0.1px 1px 5px rgba(0,0,0,0.75);
 }
+
+.content_1_wrapper {
+    width: 1024px;
+    height: 509px;
+    padding-top: 16px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.content_1_wrapper h2 {
+    font-size: 37px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 17px;
+}
+
+.news_content {
+    height: 319px;
+    margin-top: 26px;
+}
+
+.film_poster {
+    width: 656px;
+    float: left;
+    margin-left: 1px;
+}
+
+.film_description {
+    width: 341px;
+    height: 233px;
+    float: left;
+    background-color: #ec9e03;
+    font-size: 29px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe Pro";
+    font-weight: 300;
+    box-sizing: border-box;
+    padding: 16px 29px;
+    position: relative;
+}
+
+.film_poster video {
+    width:  315px;
+    height: 232px;
+    display: block;
+}
+
+.film_date {
+    width: 113px;
+    height: 86px;
+    background-color: #ddb101;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 16px;
+    padding-left: 6px;
+}
+
+.film_date > p:first-child {
+    font-size: 51px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe Pro";
+    font-weight: bold;
+}
+
+.film_date > p:last-child {
+    font-size: 21px;
+    letter-spacing: 0px;
+    line-height: 32px;
+    color: #b26529;
+    font-family: "Segoe Pro";
+    text-transform: uppercase;
+}
+
+.twitter_poster {
+    width: 329px;
+    height: 233px;
+    float: right;
+    background-color: #ec9e03;
+    margin-right: 5px;
+    position: relative;
+    margin-right: 5px;
+}
+
+.twitter_poster span {
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe Pro";
+    font-weight: 300;
+    float: right;
+    margin-right: 18px;
+    margin-top: 9px;
+}
+
+.twitter_poster svg {
+    fill: #c18000;
+    margin-left: 82px;
+    margin-top: 57px;
+}
+
+.plus_sign {
+    font-size: 23px;
+    letter-spacing: 1px;
+    line-height: 23px;
+    color: #ffffff;
+    font-family: "Segoe Pro";
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.twitter_poster .plus_sign {
+    margin-right: -4px;
+}
+
+.slider_container {
+    width: 896px;
+    margin: 30px 55px 30px auto;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    outline: none;
+    opacity: 0.5;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 197px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: #ec9e03;
+    cursor: pointer;
+}
+  
+.slider::-moz-range-thumb {
+    width: 197px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: #ec9e03;
+    cursor: pointer;
+}
+
+/* Content Two */
 
 .content_2 {
     height: 499px;
