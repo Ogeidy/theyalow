@@ -474,6 +474,7 @@ header .logo .logo_text {
     position: absolute;
     bottom: 10px;
     right: 10px;
+    cursor: pointer;
 }
 
 .twitter_poster .plus_sign {
@@ -519,6 +520,7 @@ header .logo .logo_text {
     cursor: pointer;
 }
 
+
 /* Content Two */
 
 .content_2 {
@@ -527,6 +529,97 @@ header .logo .logo_text {
     background-repeat: no-repeat;
     background-position: top center;
 }
+
+.content_2_wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.content_2_wrapper h2 {
+    font-size: 43px;
+    letter-spacing: 0px;
+    color: #f5c506;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 42px;
+}
+
+.content_2_pictures {
+    width: 600px;
+    height: 320px;
+    float: left;
+    position: relative;
+}
+
+.content_2_pictures > div {
+    position: absolute;
+    top: 9px;
+    width: 116px;
+    height: 116px;
+    border-radius: 58px;
+    background-color: #f5c506;
+    z-index: 10;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "PT Sans", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 51px;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+.content_2_pictures > img:nth-child(2) {
+    position: absolute;
+    top: 52px;
+    left: 20px;
+}
+
+.content_2_pictures > img:nth-child(3) {
+    position: absolute;
+    top: 94px;
+    left: 367px;
+}
+
+.content_2_pictures > img:nth-child(4) {
+    position: absolute;
+    top: 204px;
+    left: 520px;
+}
+
+.content_2_text {
+    width: 348px;
+    float: right;
+    margin-top: 89px;
+}
+
+.content_2_text ul {
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
+.content_2_text li {
+    font-size: 40px;
+    letter-spacing: 0px;
+    color: #f5c506;
+    font-family: "Open Sans";
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.content_2_text li span {
+    font-size: 22px;
+    color: #a9a9a7;
+    display: inline-block;
+    line-height: 30px;
+}
+
+
+
+/* Footer */
 
 footer {
     height: 64px;
