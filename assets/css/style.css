@@ -239,6 +239,14 @@ header .logo .logo_text {
     box-shadow:0 0 0 128px rgba(0, 0, 0, 0.33) inset;
 }
 
+.desktop_video {
+    display: block;
+}
+
+.mobile_video {
+    display: none;
+}
+
 .banner_text {
     font-size: 63px;
     letter-spacing: 1px;
@@ -728,8 +736,6 @@ footer {
         height: 62px;
     }
     
-
-
     .header_nav ul li a {
         height: 62px;
         font-size: 19px;
@@ -761,5 +767,50 @@ footer {
         height: 327px;
         background: none;
         margin: 0;
+    }
+    
+    .banner_wrapper {
+        position: static;
+        padding-top: 0;
+    }
+
+    .banner_arrow_left, .banner_arrow_right {
+        display: none;
+    }
+    
+    .banner_content {
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    
+    .banner .banner_content video {
+        width: 640px;
+        height: 327px;
+        margin: 0;
+        box-shadow:0 0 0 128px rgba(0, 0, 0, 0.33) inset;
+    }
+
+    .desktop_video {
+        display: none;
+    }
+
+    .mobile_video {
+        display: block;
+    }
+    
+    .banner_text {
+        display: none;
+    }
+    
+    
+    /* Icon Area */
+    
+    .icon_area {
+        height: 212px;
+        background-image: url("../images/layer_7.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+        box-shadow: -0.1px -1px 5px rgba(0,0,0,0.75);
     }
 }
